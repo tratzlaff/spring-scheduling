@@ -1,9 +1,17 @@
+/**
+ * Gradle build script for sample Spring Scheduling app.
+ * See http://spring.io/guides/gs/scheduling-tasks/#scratch
+ *
+ * Spring Boot Gradle plugin
+ * http://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-gradle-plugin.html
+ */
+
 buildscript {
     repositories {
         mavenCentral()
     }
     dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.5.RELEASE")
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.6.RELEASE")
     }
 }
 
